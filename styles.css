@@ -56,6 +56,34 @@ footer strong{color:#fff}
 
   .roof-logo{
     width:42px;
-    height:32px;
+height:32px;
+  }
+}
+
+/* Better mobile hero */
+@media (max-width:600px){
+  .hero{
+    min-height:520px;
+  }
+
+  .hero-grid{
+    min-height:520px;
+    padding:55px 20px;
+  }
+
+  .hero h1{
+    font-size:46px;
+    line-height:0.98;
+    margin-bottom:22px;
+  }
+
+  .hero-text{
+    font-size:17px;
+    line-height:1.5;
+  }
+
+  .hero .btn{
+    padding:14px 17px;
+    margin-top:8px;
   }
 }
