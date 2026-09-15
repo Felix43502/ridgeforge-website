@@ -188,3 +188,37 @@ height:32px;
     border-radius:8px;
   }
 }
+/* Cleaner mobile header */
+@media (max-width:600px){
+
+  .site-header{
+    padding:0 16px;
+  }
+
+  .nav-wrap{
+    padding:14px 0;
+    gap:12px;
+  }
+
+  .brand-copy strong{
+    font-size:20px;
+    line-height:1.1;
+  }
+
+  .brand-copy span{
+    font-size:10px;
+  }
+
+  .header-phone{
+    font-size:14px;
+    padding:10px 14px;
+  }
+
+  .nav{
+    gap:16px;
+  }
+
+  .nav a{
+    font-size:14px;
+  }
+}
