@@ -35,3 +35,27 @@ footer{background:#030d1d;color:#b8c4d3;padding:36px 20px;text-align:center}
 footer strong{color:#fff}
 @media (max-width:800px){header{position:static;align-items:flex-start}header nav{order:3;width:100%;margin-left:0;gap:14px;flex-wrap:wrap}header>a:last-child{margin-left:auto}main section{padding:48px 18px}.hero{min-height:520px}.hero h1{font-size:52px}.hero>p:nth-of-type(2){font-size:18px}.services{grid-template-columns:1fr}.project-gallery{grid-template-columns:1fr 1fr}#estimate form{grid-template-columns:1fr}#estimate textarea,#estimate button{grid-column:auto}}
 @media (max-width:520px){header>a:first-child{width:100%;font-size:17px}header>a:last-child{margin-left:0}.hero h1{font-size:46px}.project-gallery{grid-template-columns:1fr}}
+/* Mobile header improvements */
+@media (max-width:600px){
+  .site-header{
+    padding:0 14px;
+  }
+
+  .nav-wrap{
+    min-height:70px;
+  }
+
+  .brand-copy strong{
+    font-size:16px;
+    line-height:1.15;
+  }
+
+  .brand-copy span{
+    font-size:9px;
+  }
+
+  .roof-logo{
+    width:42px;
+    height:32px;
+  }
+}
