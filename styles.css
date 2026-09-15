@@ -107,3 +107,32 @@ height:32px;
     padding:10px 14px;
   }
 }
+/* Compact mobile header */
+@media (max-width:600px){
+  .site-header{
+    padding:0 16px;
+  }
+
+  .nav-wrap{
+    min-height:auto;
+    padding:14px 0;
+    gap:10px;
+  }
+
+  .brand-copy strong{
+    font-size:18px;
+  }
+
+  .header-phone{
+    font-size:13px;
+    padding:9px 13px;
+  }
+
+  .nav{
+    gap:18px;
+  }
+
+  .nav a{
+    font-size:13px;
+  }
+}
