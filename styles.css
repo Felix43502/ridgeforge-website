@@ -256,3 +256,35 @@ height:32px;
     font-size:15px;
   }
 }
+/* Trust Bar */
+.trust-bar{
+  background:#0b2748;
+  color:white;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  text-align:center;
+  padding:22px 12px;
+  gap:8px;
+}
+
+.trust-bar div{
+  padding:4px 8px;
+  border-right:1px solid rgba(255,255,255,.25);
+}
+
+.trust-bar div:last-child{
+  border-right:none;
+}
+
+.trust-bar strong{
+  display:block;
+  font-size:22px;
+  margin-bottom:5px;
+}
+
+.trust-bar span{
+  display:block;
+  font-size:11px;
+  line-height:1.3;
+  font-weight:600;
+}
